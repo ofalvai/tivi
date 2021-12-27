@@ -16,15 +16,15 @@
  */
 
 plugins {
-    id 'com.gradle.enterprise' version '3.8'
+//    id 'com.gradle.enterprise' version '3.8'
 }
 
-gradleEnterprise {
-    buildScan {
-        termsOfServiceUrl = 'https://gradle.com/terms-of-service'
-        termsOfServiceAgree = 'yes'
-    }
-}
+//gradleEnterprise {
+//    buildScan {
+//        termsOfServiceUrl = 'https://gradle.com/terms-of-service'
+//        termsOfServiceAgree = 'yes'
+//    }
+//}
 
 include ':base'
 include ':base-android'
